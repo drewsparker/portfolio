@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.178b807d.css",
-    "main.js": "/static/js/main.6e9151e9.js",
-    "static/media/home-pg.png": "/static/media/home-pg.70eed1fbe61fc78c2f81.png",
-    "static/media/about.jpeg": "/static/media/about.0ba8e6eeff408500846c.jpeg",
-    "static/media/DrewParker_11.22.pdf": "/static/media/DrewParker_11.22.716ad8048bc91bfb3cce.pdf",
-    "static/media/home-ava.png": "/static/media/home-ava.7b4b46c9922642c16621.png",
-    "static/media/loading.gif": "/static/media/loading.9ad6622dbe6b6d099960.gif",
-    "static/media/home-bg.webp": "/static/media/home-bg.c56f2e987844258e0067.webp",
-    "index.html": "/index.html",
-    "main.178b807d.css.map": "/static/css/main.178b807d.css.map",
-    "main.6e9151e9.js.map": "/static/js/main.6e9151e9.js.map"
+    "main.css": "./static/css/main.e98cbab3.css",
+    "main.js": "./static/js/main.73c5923a.js",
+    "static/media/home-pg.png": "./static/media/home-pg.70eed1fbe61fc78c2f81.png",
+    "static/media/about.jpeg": "./static/media/about.0ba8e6eeff408500846c.jpeg",
+    "static/media/DrewParker_11.22.pdf": "./static/media/DrewParker_11.22.716ad8048bc91bfb3cce.pdf",
+    "static/media/home-ava.png": "./static/media/home-ava.7b4b46c9922642c16621.png",
+    "static/media/loading.gif": "./static/media/loading.9ad6622dbe6b6d099960.gif",
+    "static/media/home-bg.webp": "./static/media/home-bg.c56f2e987844258e0067.webp",
+    "index.html": "./index.html",
+    "main.e98cbab3.css.map": "./static/css/main.e98cbab3.css.map",
+    "main.73c5923a.js.map": "./static/js/main.73c5923a.js.map"
   },
   "entrypoints": [
-    "static/css/main.178b807d.css",
-    "static/js/main.6e9151e9.js"
+    "static/css/main.e98cbab3.css",
+    "static/js/main.73c5923a.js"
   ]
 }
