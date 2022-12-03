@@ -14,9 +14,9 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed by Drew Parker with inspiration from Soumyajit Behera</h3>
+          <h3>Designed by Drew Parker</h3>
         </Col>
-        <Col md="8" class="footer-body"> 
+        <Col md="8" class="footer-body, align-items-end"> 
           <ul className="footer-icons">
             <li className="social-icons">
               <a
