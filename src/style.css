@@ -260,7 +260,7 @@ button:focus {
 
 .home-section {
   position: relative;
-  z-index: -1;
+  z-index: 0;
   background-image: var(--image-gradient), url(./assets/home-bg.webp);
   background-position: top center;
   background-repeat: no-repeat;
@@ -318,6 +318,7 @@ button:focus {
   text-align: center !important;
   padding-top: 25px;
   color: white !important;
+  /* z-index: -1; */
 }
 
 .home-about-social-links {
@@ -388,13 +389,27 @@ button:focus {
 
 .footer-body {
   z-index: 1;
-  text-align: right !important;
-  align-items: flex-end !important;
+  text-align: left !important;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer-copywright {
+  text-align: left !important;
 }
 
 @media (max-width: 767px) {
   .footer-copywright {
     text-align: center !important;
+  }
+
+  .footer-icons {
+    justify-content: center;
   }
 
   .footer-body {
@@ -426,7 +441,7 @@ button:focus {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  z-index: -1;
+  z-index: 0;
   background-image: var(--image-gradient), url(./assets/home-bg.webp);
   background-position: top center;
   background-repeat: no-repeat;
@@ -439,6 +454,7 @@ button:focus {
   padding-left: 25px !important;
   padding-right: 25px !important;
   height: auto !important;
+  /* z-index: -1; */
 }
 
 .projButton {
@@ -458,17 +474,7 @@ button:focus {
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 4px 4px 5px rgba(113, 205, 208, 0.561) !important;
-}
-
-
-.blog-link {
-  color: white !important;
-  text-decoration: none !important;
-}
-
-.blog-link:hover {
-  cursor: pointer !important;
+  box-shadow: 0 4px 4px 5px rgba(113, 151, 208, 0.561) !important;
 }
 
 .card-img-top {
@@ -477,11 +483,6 @@ button:focus {
   border-radius: 10px !important;
 }
 
-.blog-img {
-  padding: 0px !important;
-  opacity: 0.8 !important;
-  border-radius: 0px !important;
-}
 
 .btn-primary {
   color: #fff !important;

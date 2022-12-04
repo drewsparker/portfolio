@@ -12,11 +12,11 @@ function Footer() {
   let year = date.getFullYear();
   return (
     <Container fluid className="footer">
-      <Row>
+      <Row className="px-5">
         <Col md="4" className="footer-copywright">
-          <h3>Designed by Drew Parker</h3>
+          <h3> Designed by Drew Parker</h3>
         </Col>
-        <Col md="8" class="footer-body, align-items-end"> 
+        <Col md="8" class="footer-body"> 
           <ul className="footer-icons">
             <li className="social-icons">
               <a

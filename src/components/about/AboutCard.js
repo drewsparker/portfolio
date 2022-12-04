@@ -8,7 +8,7 @@ function AboutCard() {
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
+          <p style={{ textAlign: "left" }}>
             Hi Everyone, I am <span className="blue">Drew Parker </span>
             from <span className="blue"> Austin, Texas.</span>
             <br />
@@ -16,7 +16,7 @@ function AboutCard() {
             I am a graduate of UT Austin Full Stack Coding Bootcamp and have a BBA from Texas A&M.
             <br />
             <br />
-            Other than coding, some other activities that I love to do!
+            Other than coding, some other activities that I love to do:
           </p>
           <ul>
             <li className="about-activity">

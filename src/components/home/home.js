@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeAvatar from "../../assets/home-ava.png";
-import Tilt from "react-parallax-tilt";
 import myImg from "../../assets/home-pg.png";
 import {
   AiFillGithub,
@@ -41,7 +40,6 @@ function home() {
           </Row>
         </Container>
       </Container>
-    
         <Container fluid  id="about">
           <Container>
             <Row>
@@ -76,7 +74,7 @@ function home() {
                     <a
                       href="https://github.com/drewsparker"
                       target="_blank"
-                      rel="noreferrer"
+                      rel=""
                       className="icon-colour  home-social-icons"
                     >
                       <AiFillGithub />
