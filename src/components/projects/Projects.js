@@ -1,22 +1,16 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCards from "./ProjectCard";
-// import leaf from "../../Assets/Projects/leaf.png";
-// import emotion from "../../Assets/Projects/emotion.png";
-// import editor from "../../Assets/Projects/codeEditor.png";
-// import chatify from "../../Assets/Projects/chatify.png";
-// import suicide from "../../Assets/Projects/suicide.png";
-// import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
   return (
     <Container fluid className="project-section">
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="blue">Works </strong>
+          My Recent <strong className="blue">Projects </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Here are a few projects I've worked on or contributed to.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
@@ -68,7 +62,7 @@ function Projects() {
             <ProjectCards
             //   imgPath={emotion}
               title="RegEx Tutorial"
-              description="Regex is a sequence of characters that maps to a specific search pattern. There are a few uses that are very helpful when coding. For instance, regex can be used to find certain patterns of characters, find and replace a character or sequence of characters in a string and it is also used to validate user input."
+              description="Regex is a sequence of characters that maps to a specific search pattern. For instance, regex can be used to find certain patterns of characters and find and replace a character in a string."
               ghLink="https://gist.github.com/drewsparker/4271e5cce17934c5fbb016ae9f4122a5"
             />
           </Col>
