@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.ad5a91ca.css",
-    "main.js": "/portfolio/static/js/main.0028ab51.js",
-    "static/media/home-pg.png": "/portfolio/static/media/home-pg.70eed1fbe61fc78c2f81.png",
+    "main.css": "/portfolio/static/css/main.3058824b.css",
+    "main.js": "/portfolio/static/js/main.ea220e3b.js",
     "static/media/about.jpeg": "/portfolio/static/media/about.0ba8e6eeff408500846c.jpeg",
     "static/media/DrewParker_11.22.pdf": "/portfolio/static/media/DrewParker_11.22.716ad8048bc91bfb3cce.pdf",
     "static/media/home-ava.png": "/portfolio/static/media/home-ava.7b4b46c9922642c16621.png",
+    "static/media/contact.png": "/portfolio/static/media/contact.e48abfdc7cc282716765.png",
     "static/media/loading.gif": "/portfolio/static/media/loading.9ad6622dbe6b6d099960.gif",
     "static/media/home-bg.webp": "/portfolio/static/media/home-bg.c56f2e987844258e0067.webp",
+    "static/media/home-pg.png": "/portfolio/static/media/home-pg.878550142ab0618707f8.png",
     "index.html": "/portfolio/index.html",
-    "main.ad5a91ca.css.map": "/portfolio/static/css/main.ad5a91ca.css.map",
-    "main.0028ab51.js.map": "/portfolio/static/js/main.0028ab51.js.map"
+    "main.3058824b.css.map": "/portfolio/static/css/main.3058824b.css.map",
+    "main.ea220e3b.js.map": "/portfolio/static/js/main.ea220e3b.js.map"
   },
   "entrypoints": [
-    "static/css/main.ad5a91ca.css",
-    "static/js/main.0028ab51.js"
+    "static/css/main.3058824b.css",
+    "static/js/main.ea220e3b.js"
   ]
 }
